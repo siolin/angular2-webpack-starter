@@ -52,4 +52,5 @@ const APP_PROVIDERS = [
     APP_PROVIDERS
   ]
 })
+
 export class AppModule {}

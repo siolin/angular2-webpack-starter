@@ -1,8 +1,4 @@
-import {
-  Component,
-  OnInit,
-} from '@angular/core';
-console.log('`Extranet` component loaded asynchronously');
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'extranet',
@@ -10,10 +6,4 @@ console.log('`Extranet` component loaded asynchronously');
     <h1>Hello from Extranet</h1>
   `,
 })
-export class ExtranetComponent implements OnInit {
-
-  public ngOnInit() {
-    console.log('hello `Extranet` component');
-  }
-
-}
+export class ExtranetComponent {}

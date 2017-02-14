@@ -1,14 +1,5 @@
-import {
-  Component,
-  OnInit,
-  ViewEncapsulation
-} from '@angular/core';
-// import { AppState } from './app.service';
+import { Component } from '@angular/core';
 
-/*
- * App Component
- * Top Level Component
- */
 @Component({
   selector: 'app',
   styleUrls: [
@@ -36,10 +27,4 @@ import {
     </main>
   `
 })
-export class AppComponent implements OnInit {
-
-  constructor() {}
-
-  public ngOnInit() {}
-
-}
+export class AppComponent {}

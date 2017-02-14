@@ -1,8 +1,4 @@
-import {
-  Component,
-  OnInit,
-} from '@angular/core';
-console.log('`Crm` component loaded asynchronously');
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'crm',
@@ -10,10 +6,4 @@ console.log('`Crm` component loaded asynchronously');
     <h1>Hello from Crm</h1>
   `,
 })
-export class CrmComponent implements OnInit {
-
-  public ngOnInit() {
-    console.log('hello `Crm` component');
-  }
-
-}
+export class CrmComponent {}

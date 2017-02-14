@@ -23,7 +23,7 @@ const ngcWebpack = require('ngc-webpack');
 const HMR = helpers.hasProcessFlag('hot');
 const AOT = helpers.hasNpmFlag('aot');
 const METADATA = {
-  title: 'CRM',
+  title: 'LABOURKING',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };
